@@ -1,0 +1,23 @@
+x = int(1)
+y = int(7)
+a = bool(False)
+while a == False:
+    egg = int(x * y)
+    if egg % 2 == 1:
+        if egg % 3 == 1:
+            if egg % 4 == 1:
+                if egg % 5 == 1:
+                    if egg % 6 == 1:
+                        if egg % 7 == 0:
+                            a = bool(True)
+                    else:
+                        x += 1
+                else:
+                    x += 1
+            else:
+                x += 1
+        else:
+            x += 1
+    else:
+        x +=1
+print(egg)
